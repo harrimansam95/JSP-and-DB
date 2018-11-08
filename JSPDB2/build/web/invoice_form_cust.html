@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Customer Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <a href="index.html"><p>Back to Menu</p></a>
+        <h1>Customer Invoice Insert</h1><br>
+        <form action='actions/insert_inv_cust.jsp' method="POST">
+            Invoice Number: <input type="text" name="inv_number" value="" />
+            <br><br>
+            Customer Number: <input type="text" name="cust_number" value="" />
+            <br><br>
+            Payment: <input type="text" name="payment" value="" />
+            <br><br>
+            
+            <input type="submit" value="Submit"/>
+        </form>
+    </center>
+    </body>
+</html>

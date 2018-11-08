@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Customer Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <a href="index.html"><p>Back to Menu</p></a>
+        <h1>Product Insert</h1><br>
+        <form action='actions/insert_prod.jsp' method="POST">
+            Product Code: <input type="text" name="prod_code" value="" />
+            <br><br>
+            Product Description: <textarea name="prod_desc" rows="4" cols="20">
+            </textarea>
+            <br><br>
+            Product Price: <input type="text" name="prod_price" value="" />
+            <br><br>
+            
+            <input type="submit" value="Submit"/>
+        </form>
+    </center>
+    </body>
+</html>
